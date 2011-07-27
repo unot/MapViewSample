@@ -24,6 +24,23 @@
     android:background="@android:color/white"
     android:textSize="12pt"
     />
+    <LinearLayout android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:background="@android:color/white"
+    android:layout_height="wrap_content">
+    <ImageView android:id="@+id/ImageView01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingRight="16px"/>
+    <TextView 
+    android:id="@+id/TextView02"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:textColor="@android:color/black"
+    android:background="@android:color/white"
+    android:gravity="center_vertical"
+    android:textSize="12pt"/>
+    </LinearLayout>
 <com.google.android.maps.MapView
     android:id="@+id/MapView01"
 	android:layout_width="fill_parent"
