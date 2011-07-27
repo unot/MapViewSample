@@ -1,0 +1,6 @@
+*.class
+*.ap*
+bin/
+gen/
+local.properties
+*.dex
